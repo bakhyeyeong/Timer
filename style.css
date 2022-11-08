@@ -45,7 +45,7 @@ article.timer-art .dp-timer{
     justify-content: space-around;
     width: 19.5rem;
     border-top: 1px solid #3D538A;
-    padding-top: 2rem;
+    padding-top: 3.125rem;
 }
 article.timer-art .dp-timer .hrs{
     position: relative;
@@ -125,5 +125,15 @@ article.timer-art .dp-timer .sec::before{
 }
 /* 컨트롤 버튼부분 */
 article.timer-art .cont-timer{
+    display: flex;
     margin-top: 2.5rem;
+}
+article.timer-art .cont-timer .start-btn{
+    display: flex;
+    align-items: center;
+    background: #324577;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+    border: none;
+    color: #617199;
 }
