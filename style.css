@@ -1,0 +1,129 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+:root{
+    background: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100%;    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Pretendard';
+    font-style: normal;
+}
+header img{
+    padding: 4.5rem 0 3.75rem 0;
+    width: 15.25rem;
+}
+article.timer-art{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    border-radius: 16px;
+    width: 25rem;
+    height: 22.5rem;
+    padding: 2.5rem 2.75rem;
+}
+article h1{
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: 0.5rem 0 1.5rem 0;
+}
+article.timer-art .dp-timer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 19.5rem;
+    border-top: 1px solid #3D538A;
+    padding-top: 2rem;
+}
+article.timer-art .dp-timer .hrs{
+    position: relative;
+    background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+    border: 1px solid #354971;
+    border-radius: 4px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 1rem 0.875rem;
+}
+article.timer-art .dp-timer .hrs::before{
+    position: absolute;
+    content:"HRS";
+    color:#A5B6EE;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    top:-1.25rem;
+    left:1.75rem;
+}
+article.timer-art .dp-timer .hrs::after{
+    position: absolute;
+    content: url("./image/dot.png");
+    right: -1rem;
+}
+article.timer-art .dp-timer .min{
+    position: relative;
+    background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+    border: 1px solid #354971;
+    border-radius: 4px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 1rem 0.875rem;
+}
+article.timer-art .dp-timer .min::before{
+    position: absolute;
+    content:"MIN";
+    color:#A5B6EE;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    top:-1.25rem;
+    left:1.75rem;
+}
+article.timer-art .dp-timer .min::after{
+    position: absolute;
+    content: url("./image/dot.png");
+    right: -1rem;
+}
+article.timer-art .dp-timer .sec{
+    position: relative;
+    background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+    border: 1px solid #354971;
+    border-radius: 4px;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 1rem 0.875rem;
+}
+article.timer-art .dp-timer .sec::before{
+    position: absolute;
+    content:"SEC";
+    color:#A5B6EE;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    top:-1.25rem;
+    left:1.75rem;
+}
+/* 컨트롤 버튼부분 */
+article.timer-art .cont-timer{
+    margin-top: 2.5rem;
+}
